@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+
+  width: 100%;
+  padding: 0;
+}
+
+.header {
+  height: 55vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  overflow: hidden;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 1rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+}
+
+.header img {
+  object-fit: cover;
+
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.imgVioleta {
+  width: auto;
+  height: 100%;
+  object-position: center bottom;
+  position: relative;
+  z-index: 2;
+}
+
+.imgBrillos {
+  width: 100%;
+  height: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 2;
+}
+.titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 2.8rem;
+  color: white;
+  font-family: "Mukta", sans-serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: white;
+
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.col-1 {
+  width: 50%;
+  margin-right: 2rem;
+}
+.col-2 {
+  width: 50%;
+  margin-right: 0;
+}
+
+.col-1 img {
+  width: 100%;
+}
+.col-2 img {
+  width: 100%;
+}
+h3 {
+  color: rgb(111, 68, 146);
+  font-family: "Mukta", sans-serif;
+}
+h4 {
+  font-size: larger;
+}
+p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  color: rgb(42, 39, 37);
+  font-size: small;
+}
+.inscription {
+  margin: 0 auto;
+  margin-top: 7rem;
+  background-color: rgb(245, 196, 147);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-inline: 2rem;
+  font-family: "Mukta", sans-serif;
+  border-radius: 0.6rem;
+  max-width: 800px;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+small {
+  color: rgb(45, 47, 47);
+}
+button {
+  padding-inline: 2rem;
+  font-family: "Mukta", sans-serif;
+  padding: 0.6rem;
+  background-color: rgb(245, 196, 147);
+  border-radius: 0.6rem;
+  border: solid black 1.3px;
+  margin: 1.2rem;
+}
+.footer {
+  background-color: rgb(112, 87, 132);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding-left: 15rem;
+  padding-top: 3rem;
+  height: 3.5rem;
+}
+.footer small {
+  color: rgb(221, 227, 227);
+}
